@@ -33,6 +33,6 @@ if __name__ == '__main__':
     text = input('Enter something: ')
     lan = detect_lan(text)
     try:
-        print(translate_text(text, lan))
+        print(f'{translate_text(text, lan)}\nПереведено сервисом «Яндекс.Переводчик», http://translate.yandex.ru')
     except:
         print(lan)
