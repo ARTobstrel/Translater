@@ -18,7 +18,7 @@ def detect_lan(text):
         if res['lang'] == 'ru':
             return 'ru-en'
     else:
-        return 'Invalid KEY_API'
+        return 'Invalid API_KEY'
 
 
 def translate_text(text, lan):
